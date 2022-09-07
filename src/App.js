@@ -1,4 +1,5 @@
 import {
+  InformationPanel,
   Sidebar
 } from './Components';
 
@@ -13,9 +14,7 @@ function App() {
       <div className="flex flex-col flex-auto overflow-y-auto">
         <Home />
       </div>
-      <div className="h-full w-[260px]">
-
-      </div>
+      <InformationPanel />
     </div>
   );
 }
