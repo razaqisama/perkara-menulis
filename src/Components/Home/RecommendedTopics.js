@@ -8,7 +8,7 @@ export const RecommendedTopics = () => {
                 {
                     recommendedTopics.map((item, index) => {
                         return (
-                            <div className="max-w cursor-pointer rounded-full m-2 px-2 py-1 bg-white">
+                            <div key={index} className="max-w cursor-pointer rounded-full m-2 px-2 py-1 bg-white">
                                 <p className="text-center text-sm text-gray-900">{item}</p>
                             </div>
                         )

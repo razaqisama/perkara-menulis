@@ -1,4 +1,4 @@
 export * from './StoryPreview';
-export * from './RecomendedTopics';
+export * from './RecommendedTopics';
 export * from './SuggestedWriters';
 export * from './Trending';

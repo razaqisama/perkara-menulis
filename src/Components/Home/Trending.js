@@ -10,7 +10,7 @@ export const Trending = () => {
                 {
                     topWriters.map((item, index) => {
                         return (
-                            <div className="flex flex-col flex-wrap space-x-2 px-2">
+                            <div key={index} className="flex flex-col flex-wrap space-x-2 px-2">
                                 <p className="font-bold">Some Nice Title of An Article</p>
                                 <p className="font-thin text-sm">Writer Name</p>
                             </div>

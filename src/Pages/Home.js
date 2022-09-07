@@ -11,7 +11,7 @@ export const Home = () => {
             {
                 stories.map((item, index) => {
                     return (
-                        <StoryPreview />
+                        <StoryPreview key={index}/>
                     )
                 })
             }

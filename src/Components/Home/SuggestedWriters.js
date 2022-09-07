@@ -10,7 +10,7 @@ export const SuggestedWriters = () => {
                 {
                     topWriters.map((item, index) => {
                         return (
-                            <div className="flex flex-row items-center space-x-2 px-2">
+                            <div key={index} className="flex flex-row items-center space-x-2 px-2">
                                 <div className="w-6 h-6 rounded-full bg-white"></div>
                                 <p>Writer Name</p>
                             </div>

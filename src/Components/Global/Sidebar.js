@@ -25,12 +25,12 @@ export const Sidebar = ({menu}) => {
             {
                 menuDummy.map((item, index) => {
                     return (
-                        <div className="flex flex-col space-y-2 border-b-[1px] py-4">
+                        <div key={index} className="flex flex-col space-y-2 border-b-[1px] py-4">
                             <p className={`${isExtended ? "" : "opacity-0"} px-2 font-bold tracking-[0.1em]`}>Category</p>
                             {
                                 subMenuDummy.map((item, index) => {
                                     return (
-                                        <div className={`w-full py-2 flex flex-row overflow-hidden select-none cursor-pointer hover:bg-gray-700 transition duration-300 ease-in-out`}>
+                                        <div key={index} className={`w-full py-2 flex flex-row overflow-hidden select-none cursor-pointer hover:bg-gray-700 transition duration-300 ease-in-out`}>
                                             <div className="flex justify-center items-center min-w-[60px] max-w-[60px]">
                                                 <svg className="min-w-[25px] max-w-[25px] min-h-[25px] max-h-[25px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
