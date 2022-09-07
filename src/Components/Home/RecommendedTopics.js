@@ -1,4 +1,4 @@
-export const RecomendedTopics = () => {
+export const RecommendedTopics = () => {
     const recommendedTopics = ["Crime", "Psychology", "Thriller", "Mystery", "Fiction", "Non Fiction", "Philosophy", "Adventure", "Joko Anwar"]
 
     return (

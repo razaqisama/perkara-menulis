@@ -1,4 +1,4 @@
-import { RecomendedTopics, SuggestedWriters, Trending } from "../Home"
+import { RecommendedTopics, SuggestedWriters, Trending } from "../Home"
 import { SearchBar } from "./SearchBar"
 
 export const InformationPanel = () => {
@@ -25,7 +25,7 @@ export const InformationPanel = () => {
             </div>
             <Trending />
             <SuggestedWriters />
-            <RecomendedTopics />
+            <RecommendedTopics />
         </div>
     )
 }
