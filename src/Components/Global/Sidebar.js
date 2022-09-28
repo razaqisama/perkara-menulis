@@ -6,7 +6,7 @@ export const Sidebar = ({menu}) => {
     const menuDummy = Array(2).fill({})
     const subMenuDummy = Array(4).fill({})
     return (
-        <div className={`relative h-full ${isExtended ? "w-[240px]" : "w-[60px]" } border-r-[1px] flex flex-col transition-[width] duration-300 ease-in-out`}>
+        <div className={`relative h-full ${isExtended ? "w-[240px]" : "w-[60px]" } border-r-[1px] hidden lg:flex flex-col transition-[width] duration-300 ease-in-out`}>
             <div
                 onClick={(e) => {
                     e.preventDefault();

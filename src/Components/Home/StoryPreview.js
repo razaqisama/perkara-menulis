@@ -29,7 +29,7 @@ export const StoryPreview = () => {
                     <p>9/20/2022</p>
                 </div>
             </div>
-            <p className="text-sm text-gray-300">{cutWord(lorem)}</p>
+            <p className="hidden md:inline text-sm text-gray-300">{cutWord(lorem)}</p>
             <div className="flex flex-row justify-between py-2">
                 <p className="rounded-full px-2 py-1 bg-gray-700 text-xs">Programming</p>
                 <div className="flex flex-row space-x-2">

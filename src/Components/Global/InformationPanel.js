@@ -3,7 +3,7 @@ import { SearchBar } from "./SearchBar"
 
 export const InformationPanel = () => {
     return (
-        <div className="h-full min-w-[300px] max-w-[300px] border-l-[1px] overflow-y-auto">
+        <div className="hidden lg:inline h-full min-w-[300px] max-w-[300px] border-l-[1px] overflow-y-auto">
             <div className="flex flex-col border-b-[1px] pb-4 sticky top-0 bg-gray-900 z-[99]">
                 <SearchBar />
                 <div className="cursor-pointer rounded-full m-2 px-2 py-1 bg-white">
